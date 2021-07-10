@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Nunito-Black-Italic;
+  src: url(./font/Nunito-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Nunito-Bold;
+  src: url(./font/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(./font/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: Nunito-ExtraLight;
+  src: url(./font/Nunito-ExtraLight.ttf);
+}
+#css-zen-garden {
+  background: #f7f7e8 url("./img/rock.png") no-repeat right bottom;
+  font-family: "Nunito-Regular";
+  margin: 20px;
+}
+
+a {
+  color: black;
+}
+
+h3 {
+  font-family: "Nunito-Bold";
+}
+
+[role=banner] {
+  background-image: url("./img/bannerBG.jpg");
+  background-size: 100%;
+  padding: 10px 25px;
+  text-align: right;
+  color: #f7f7e8;
+  font-family: "Nunito-Black-Italic";
+}
+[role=banner] h1 {
+  font-size: 3em;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+[role=banner] h2 {
+  margin-top: 0px;
+}
+
+[role=article] {
+  padding: 5px 20px;
+}
+
+.explanation {
+  background-color: #889e81;
+  color: #f7f7e8;
+}
+
+.participation {
+  background-color: #bac7a7;
+}
+
+.benefits {
+  background-color: #889e81;
+  color: #f7f7e8;
+}
+
+.requirements {
+  background-color: #bac7a7;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+}
+footer a {
+  margin: 0px 5%;
+}
+
+[role=main] {
+  float: left;
+  width: 63%;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background-color: #698474;
+  color: white;
+  padding: 5px 20px;
+}
+.sidebar h3 {
+  margin-bottom: 0px;
+}
+.sidebar a {
+  color: whitesmoke;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 5px;
+}
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+.sidebar .design-name {
+  display: block;
+}
+.sidebar .designer-name {
+  font-family: "Nunito-ExtraLight";
+}
+
+/*# sourceMappingURL=style.css.map */
